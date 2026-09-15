@@ -25,7 +25,8 @@ fun App() {
             ) {
                 composable<Splash> {
                     SplashScreen(
-
+                        onFinished = {
+                        }
                     )
                 }
             }
